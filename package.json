@@ -1,5 +1,5 @@
 {
-  "name": "turborepo-basic-shared",
+  "name": "turborepo-basic",
   "version": "0.0.0",
   "private": true,
   "workspaces": [
@@ -18,7 +18,7 @@
   },
   "engines": {
     "npm": ">=7.0.0",
-    "node": ">=14.0.0"
+    "node": ">=16.0.0"
   },
   "packageManager": "pnpm@6.32.3"
 }
