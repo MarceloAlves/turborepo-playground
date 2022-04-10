@@ -1,5 +1,8 @@
-export const Button = {
+import type { ComponentStyleConfig } from '@chakra-ui/react'
+
+export const Button: ComponentStyleConfig = {
   defaultProps: {
-    colorScheme: "yellow",
+    size: 'lg',
+    colorScheme: 'yellow',
   },
-};
+}
