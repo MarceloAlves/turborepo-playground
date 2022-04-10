@@ -10,15 +10,21 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "@storybook/addon-actions": "^6.4.21",
-    "@storybook/addon-essentials": "^6.4.21",
-    "@storybook/addon-interactions": "^6.4.21",
-    "@storybook/addon-links": "^6.4.21",
+    "@chakra-ui/icons": "^1.1.7",
+    "@chakra-ui/react": "^1.8.8",
+    "@chakra-ui/storybook-addon": "^1.0.3",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@storybook/addon-actions": "^6.5.0-alpha.60",
+    "@storybook/addon-essentials": "^6.5.0-alpha.60",
+    "@storybook/addon-interactions": "^6.5.0-alpha.60",
+    "@storybook/addon-links": "^6.5.0-alpha.60",
     "@storybook/builder-vite": "^0.1.26",
-    "@storybook/react": "^6.4.21",
+    "@storybook/react": "^6.5.0-alpha.60",
     "@storybook/testing-library": "^0.0.9",
-    "react-dom": "^17.0.2",
+    "framer-motion": "^6",
     "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "ui": "workspace:*"
   },
   "devDependencies": {

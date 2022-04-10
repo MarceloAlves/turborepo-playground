@@ -13,7 +13,11 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "cypress:open": "turbo run dev cypress:open --filter=cloud --filter=cypress"
   },
+  "prettier": {
+    "extends": "@marceloalves/prettier-config"
+  },
   "devDependencies": {
+    "@marceloalves/prettier-config": "^1.0.0",
     "prettier": "^2.5.1",
     "turbo": "latest"
   },

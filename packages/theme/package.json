@@ -1,0 +1,21 @@
+{
+  "name": "theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "scripts": {
+    "dev": "tsup src/index.ts --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marcelo Alves",
+  "license": "ISC",
+  "devDependencies": {
+    "tsconfig": "workspace:*",
+    "tsup": "^5.12.4",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^1.8.8"
+  }
+}

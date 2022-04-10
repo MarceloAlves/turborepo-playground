@@ -12,7 +12,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hello Vite + React!</p>
         <p>
-          <Button />
+          <Button>Click MEEEE</Button>
         </p>
         <p>
           Edit <code>App.tsx</code> and save to test HMR updates.
